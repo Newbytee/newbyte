@@ -1,0 +1,61 @@
+:root {
+    --bg-color-1: #FFFFFF;
+    --bg-color-2: #EEEEEE;
+    --tx-color-1: #000000;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-weight: lighter;
+}
+
+h1 {
+    color: var(--tx-color-1);
+    font-weight: inherit;
+    font-family: sans-serif;
+}
+
+.navButton {
+    background-color: var(--bg-color-2);
+    color: var(--tx-color-1);
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contentCard {
+    background-color: var(--bg-color-2);
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.cardImage {
+    width: 100%;
+}
+
+.cardTitle {
+    font-weight: inherit;
+}
+
+#wrapper {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    #wrapper {
+        width: 70%;
+        margin: auto;
+    }
+}
